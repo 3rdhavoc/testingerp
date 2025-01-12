@@ -81,11 +81,11 @@ export default function QuickFilteringInitialize() {
   }, [debouncedFilterValue]);
 
   // Move handleRowAction here
-  const handleRowAction = (row: any) => {
+  const handleRowAction = (row: Row) => {
     setSelectedRow(row); // Save the row details for the overlay
     setOverlayOpen(true);
   };
-
+  
   const handleOverlayClose = () => {
     setOverlayOpen(false);
     setSelectedRow(null); // Reset the selected row

@@ -74,7 +74,7 @@ export default function ResponsiveGrid() {
                 <Grid size={4} sx={{display: 'flex', flexDirection: 'column', alignItems: 'start'}} >
                 <Box  sx={{height: 120}}></Box>
                 <Typography sx={{fontWeight: 'bold', fontSize: 20}}>Guardian Info</Typography>
-                <Typography sx={{fontSize: 16, mt: 2.5}}>Parent/Guardian's full name</Typography>
+                <Typography sx={{fontSize: 16, mt: 2.5}}>Parent/Guardian&apos;s full name</Typography>
                 <FullWidthTextField label='Full name' size='small'/>
                 <Typography sx={{fontSize: 16, mt: 2.5}}>Contact Info</Typography>
                 <Box sx={{display: 'flex', }}>

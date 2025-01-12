@@ -39,7 +39,7 @@ export default function BasicSelect() {
           <MenuItem value={'Ghana'}>Ghana</MenuItem>
           <MenuItem value={'Nigeria'}>Nigeria</MenuItem>
           <MenuItem value={'Liberia'}>Liberia</MenuItem>
-          <MenuItem value={'Cote d\'Ivoire'}>Cote d'Ivoire</MenuItem>
+          <MenuItem value={'Cote d\'Ivoire'}>Cote d&apos;Ivoire</MenuItem>
           <MenuItem value={'Togo'}>Togo</MenuItem>
           <MenuItem value={'Benin'}>Benin</MenuItem>
           <MenuItem value={'Senegal'}>Senegal</MenuItem>
