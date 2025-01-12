@@ -9,7 +9,7 @@ export default function HomePage() {
 
   return (
    
-        <BasicCard/>
+      <div></div>
   
   
   );
